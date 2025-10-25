@@ -790,6 +790,21 @@ require('lazy').setup({
     },
   },
 
+  {
+    'catppuccin/nvim',
+    name = 'catppuccin',
+    priority = 1000,
+    config = function()
+      -- setup must be called before loading the colorscheme
+      require('catppuccin').setup {
+        flavour = 'mocha', -- latte, frappe, macchiato, mocha
+        no_italic = true,
+      }
+      vim.cmd.colorscheme 'catppuccin'
+    end,
+  },
+
+  --[[
   { -- You can easily change to a different colorscheme.
     -- Change the name of the colorscheme plugin below, and then
     -- change the command in the config to whatever the name of that colorscheme is.
@@ -811,6 +826,7 @@ require('lazy').setup({
       vim.cmd.colorscheme 'tokyonight-night'
     end,
   },
+--]]
 
   --[[
   {
