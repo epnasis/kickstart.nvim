@@ -799,6 +799,13 @@ require('lazy').setup({
       require('catppuccin').setup {
         flavour = 'mocha', -- latte, frappe, macchiato, mocha
         no_italic = true,
+        custom_highlights = function(colors)
+          return {
+            -- Make splits more visible
+            VertSplit = { bg = colors.surface2 },
+            WinSeparator = { bg = colors.surface2 },
+          }
+        end,
       }
       vim.cmd.colorscheme 'catppuccin'
     end,
