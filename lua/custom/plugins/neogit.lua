@@ -11,6 +11,9 @@ return {
     'folke/snacks.nvim', -- optional
   },
   keys = {
-    { '<leader>g', ':Neogit<CR>', mode = 'n', desc = 'Neogit open' },
+    { '<leader>gs', ':Neogit<CR>', mode = 'n', desc = 'Neogit open' },
+    { '<leader>gc', ':Neogit commit<CR>', mode = 'n', desc = 'Neogit commit' },
+    { '<leader>gp', ':Neogit pull<CR>', mode = 'n', desc = 'Neogit pull' },
+    { '<leader>gP', ':Neogit push<CR>', mode = 'n', desc = 'Neogit Push' },
   },
 }
