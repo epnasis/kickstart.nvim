@@ -10,4 +10,7 @@ return {
     'nvim-mini/mini.pick', -- optional
     'folke/snacks.nvim', -- optional
   },
+  keys = {
+    { '<leader>g', ':Neogit<CR>', mode = 'n', desc = 'Neogit open' },
+  },
 }
