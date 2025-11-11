@@ -590,7 +590,7 @@ require('lazy').setup({
       local servers = {
         -- clangd = {},
         -- gopls = {},
-        -- pyright = {},
+        pyright = {},
         -- rust_analyzer = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
         --
@@ -633,6 +633,8 @@ require('lazy').setup({
       local ensure_installed = vim.tbl_keys(servers or {})
       vim.list_extend(ensure_installed, {
         'stylua', -- Used to format Lua code
+        'isort', -- Python import sorter
+        'black', -- Python code formatter
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
@@ -686,7 +688,7 @@ require('lazy').setup({
       formatters_by_ft = {
         lua = { 'stylua' },
         -- Conform can also run multiple formatters sequentially
-        -- python = { "isort", "black" },
+        python = { 'isort', 'black' },
         --
         -- You can use 'stop_after_first' to run the first available formatter from the list
         -- javascript = { "prettierd", "prettier", stop_after_first = true },
@@ -752,7 +754,7 @@ require('lazy').setup({
         -- <c-k>: Toggle signature help
         --
         -- See :h blink-cmp-config-keymap for defining your own keymap
-        preset = 'default',
+        preset = 'super-tab',
 
         -- For more advanced Luasnip keymaps (e.g. selecting choice nodes, expansion) see:
         --    https://github.com/L3MON4D3/LuaSnip?tab=readme-ov-file#keymaps
@@ -875,16 +877,6 @@ require('lazy').setup({
       end
 
       --
-      -- TODO: does not work - blink related?
-      -- Better navigation with Tab
-      --
-      local map_multistep = require('mini.keymap').map_multistep
-      map_multistep('i', '<Tab>', { 'pmenu_next' })
-      map_multistep('i', '<S-Tab>', { 'pmenu_prev' })
-      map_multistep('i', '<CR>', { 'pmenu_accept', 'minipairs_cr' })
-      map_multistep('i', '<BS>', { 'minipairs_bs' })
-
-      --
       -- ESCape input mode with jk keys
       --
       local map_combo = require('mini.keymap').map_combo
@@ -911,7 +903,7 @@ require('lazy').setup({
     main = 'nvim-treesitter.configs', -- Sets main module to use for opts
     -- [[ Configure Treesitter ]] See `:help nvim-treesitter`
     opts = {
-      ensure_installed = { 'bash', 'c', 'diff', 'html', 'lua', 'luadoc', 'markdown', 'markdown_inline', 'query', 'vim', 'vimdoc' },
+      ensure_installed = { 'python', 'bash', 'c', 'diff', 'html', 'lua', 'luadoc', 'markdown', 'markdown_inline', 'query', 'vim', 'vimdoc' },
       -- Autoinstall languages that are not installed
       auto_install = true,
       highlight = {
