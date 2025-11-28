@@ -340,6 +340,7 @@ require('lazy').setup({
       -- Enable Telescope extensions if they are installed
       pcall(require('telescope').load_extension, 'fzf')
       pcall(require('telescope').load_extension, 'ui-select')
+      pcall(require('telescope').load_extension, 'noice')
 
       -- See `:help telescope.builtin`
       local builtin = require 'telescope.builtin'
@@ -490,7 +491,9 @@ require('lazy').setup({
           map('grt', require('telescope.builtin').lsp_type_definitions, '[G]oto [T]ype Definition')
 
           -- Restart LSP server
-          map('<leader>lr', function() vim.cmd('LspRestart') end, '[L]SP [R]estart')
+          map('<leader>lr', function()
+            vim.cmd 'LspRestart'
+          end, '[L]SP [R]estart')
 
           -- This function resolves a difference between neovim nightly (version 0.11) and stable (version 0.10)
           ---@param client vim.lsp.Client
