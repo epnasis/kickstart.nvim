@@ -1,0 +1,279 @@
+[35m[LuaSnip] [0m[36m        fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[blink.cmp] [0m[36m      fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[catppuccin] [0m[36m     fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[diffview.nvim] [0m[36m  fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[fidget.nvim] [0m[36m    fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[fzf-lua] [0m[36m        fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[gitsigns.nvim] [0m[36m  fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[guess-indent.nvim] [0m[36mfetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[indent-blankline.nvim] [0m[36mfetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[lazy.nvim] [0m[36m      fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[lazydev.nvim] [0m[36m   fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[lazygit.nvim] [0m[36m   fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[mason-lspconfig.nvim] [0m[36mfetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[mason-tool-installer.nvim] [0m[36mfetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[mason.nvim] [0m[36m     fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[mini.nvim] [0m[36m      fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[mini.pick] [0m[36m      fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[neo-tree.nvim] [0m[36m  fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[neogit] [0m[36m         fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[noice.nvim] [0m[36m     fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[nui.nvim] [0m[36m       fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[nvim-autopairs] [0m[36m fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[nvim-lspconfig] [0m[36m fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[nvim-notify] [0m[36m    fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[nvim-treesitter] [0m[36mfetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[nvim-web-devicons] [0m[36mfetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[plenary.nvim] [0m[36m   fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[project.nvim] [0m[36m   fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[simple-zoom.nvim] [0m[36mfetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[snacks.nvim] [0m[36m    fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[telescope-fzf-native.nvim] [0m[36mfetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[telescope-ui-select.nvim] [0m[36mfetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[telescope.nvim] [0m[36m fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[todo-comments.nvim] [0m[36mfetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[toggleterm.nvim] [0m[36mfetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[venv-selector.nvim] [0m[36mfetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[vim-tmux-navigator] [0m[36mfetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[which-key.nvim] [0m[36m fetch[0m[90m | [0m[34mRunning task fetch[0m
+[35m[blink.cmp] [0m[36m      fetch[0m[90m | [0m[34mFinished task fetch in 589ms[0m
+[35m[blink.cmp] [0m[36m     status[0m[90m | [0m[34mRunning task status[0m
+[35m[fidget.nvim] [0m[36m    fetch[0m[90m | [0m[34mFinished task fetch in 625ms[0m
+[35m[fidget.nvim] [0m[36m   status[0m[90m | [0m[34mRunning task status[0m
+[35m[gitsigns.nvim] [0m[36m  fetch[0m[90m | [0m[34mFinished task fetch in 634ms[0m
+[35m[gitsigns.nvim] [0m[36m status[0m[90m | [0m[34mRunning task status[0m
+[35m[diffview.nvim] [0m[36m  fetch[0m[90m | [0m[34mFinished task fetch in 645ms[0m
+[35m[guess-indent.nvim] [0m[36mfetch[0m[90m | [0m[34mFinished task fetch in 644ms[0m
+[35m[mason-tool-installer.nvim] [0m[36mfetch[0m[90m | [0m[34mFinished task fetch in 642ms[0m
+[35m[diffview.nvim] [0m[36m status[0m[90m | [0m[34mRunning task status[0m
+[35m[guess-indent.nvim] [0m[36mstatus[0m[90m | [0m[34mRunning task status[0m
+[35m[mason-tool-installer.nvim] [0m[36mstatus[0m[90m | [0m[34mRunning task status[0m
+[35m[lazydev.nvim] [0m[36m   fetch[0m[90m | [0m[34mFinished task fetch in 644ms[0m
+[35m[noice.nvim] [0m[36m     fetch[0m[90m | [0m[34mFinished task fetch in 642ms[0m
+[35m[lazydev.nvim] [0m[36m  status[0m[90m | [0m[34mRunning task status[0m
+[35m[noice.nvim] [0m[36m    status[0m[90m | [0m[34mRunning task status[0m
+[35m[blink.cmp] [0m[36m     status[0m[90m | [0m[34mFinished task status in 54ms[0m
+[35m[blink.cmp] [0m[36m   checkout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[mini.nvim] [0m[36m      fetch[0m[90m | [0m[34mFinished task fetch in 655ms[0m
+[35m[neogit] [0m[36m         fetch[0m[90m | [0m[34mFinished task fetch in 654ms[0m
+[35m[mini.nvim] [0m[36m     status[0m[90m | [0m[34mRunning task status[0m
+[35m[neogit] [0m[36m        status[0m[90m | [0m[34mRunning task status[0m
+[35m[nvim-autopairs] [0m[36m fetch[0m[90m | [0m[34mFinished task fetch in 657ms[0m
+[35m[mason.nvim] [0m[36m     fetch[0m[90m | [0m[34mFinished task fetch in 673ms[0m
+[35m[mason.nvim] [0m[36m    status[0m[90m | [0m[34mRunning task status[0m
+[35m[nvim-autopairs] [0m[36mstatus[0m[90m | [0m[34mRunning task status[0m
+[35m[fidget.nvim] [0m[36m   status[0m[90m | [0m[34mFinished task status in 42ms[0m
+[35m[fidget.nvim] [0m[36m checkout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[gitsigns.nvim] [0m[36m status[0m[90m | [0m[34mFinished task status in 41ms[0m
+[35m[mason-tool-installer.nvim] [0m[36mstatus[0m[90m | [0m[34mFinished task status in 36ms[0m
+[35m[gitsigns.nvim] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[mason-tool-installer.nvim] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[mason-tool-installer.nvim] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 1ms[0m
+[35m[guess-indent.nvim] [0m[36mstatus[0m[90m | [0m[34mFinished task status in 47ms[0m
+[35m[lazydev.nvim] [0m[36m  status[0m[90m | [0m[34mFinished task status in 40ms[0m
+[35m[guess-indent.nvim] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[guess-indent.nvim] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 1ms[0m
+[35m[lazydev.nvim] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[lazy.nvim] [0m[36m      fetch[0m[90m | [0m[34mFinished task fetch in 725ms[0m
+[35m[mini.pick] [0m[36m      fetch[0m[90m | [0m[34mFinished task fetch in 723ms[0m
+[35m[neo-tree.nvim] [0m[36m  fetch[0m[90m | [0m[34mFinished task fetch in 723ms[0m
+[35m[nui.nvim] [0m[36m       fetch[0m[90m | [0m[34mFinished task fetch in 722ms[0m
+[35m[simple-zoom.nvim] [0m[36mfetch[0m[90m | [0m[34mFinished task fetch in 720ms[0m
+[35m[telescope-fzf-native.nvim] [0m[36mfetch[0m[90m | [0m[34mFinished task fetch in 720ms[0m
+[35m[diffview.nvim] [0m[36m status[0m[90m | [0m[34mFinished task status in 81ms[0m
+[35m[noice.nvim] [0m[36m    status[0m[90m | [0m[34mFinished task status in 74ms[0m
+[35m[fzf-lua] [0m[36m        fetch[0m[90m | [0m[34mFinished task fetch in 731ms[0m
+[35m[indent-blankline.nvim] [0m[36mfetch[0m[90m | [0m[34mFinished task fetch in 731ms[0m
+[35m[nvim-lspconfig] [0m[36m fetch[0m[90m | [0m[34mFinished task fetch in 727ms[0m
+[35m[nvim-notify] [0m[36m    fetch[0m[90m | [0m[34mFinished task fetch in 727ms[0m
+[35m[nvim-treesitter] [0m[36mfetch[0m[90m | [0m[34mFinished task fetch in 726ms[0m
+[35m[nvim-web-devicons] [0m[36mfetch[0m[90m | [0m[34mFinished task fetch in 726ms[0m
+[35m[plenary.nvim] [0m[36m   fetch[0m[90m | [0m[34mFinished task fetch in 726ms[0m
+[35m[project.nvim] [0m[36m   fetch[0m[90m | [0m[34mFinished task fetch in 726ms[0m
+[35m[telescope-ui-select.nvim] [0m[36mfetch[0m[90m | [0m[34mFinished task fetch in 725ms[0m
+[35m[nvim-autopairs] [0m[36mstatus[0m[90m | [0m[34mFinished task status in 56ms[0m
+[35m[diffview.nvim] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[diffview.nvim] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 1ms[0m
+[35m[fzf-lua] [0m[36m       status[0m[90m | [0m[34mRunning task status[0m
+[35m[indent-blankline.nvim] [0m[36mstatus[0m[90m | [0m[34mRunning task status[0m
+[35m[lazy.nvim] [0m[36m     status[0m[90m | [0m[34mRunning task status[0m
+[35m[mini.pick] [0m[36m     status[0m[90m | [0m[34mRunning task status[0m
+[35m[neo-tree.nvim] [0m[36m status[0m[90m | [0m[34mRunning task status[0m
+[35m[noice.nvim] [0m[36m  checkout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[noice.nvim] [0m[36m  checkout[0m[90m | [0m[34mFinished task checkout in 1ms[0m
+[35m[nui.nvim] [0m[36m      status[0m[90m | [0m[34mRunning task status[0m
+[35m[nvim-autopairs] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[nvim-lspconfig] [0m[36mstatus[0m[90m | [0m[34mRunning task status[0m
+[35m[nvim-notify] [0m[36m   status[0m[90m | [0m[34mRunning task status[0m
+[35m[nvim-treesitter] [0m[36mstatus[0m[90m | [0m[34mRunning task status[0m
+[35m[nvim-web-devicons] [0m[36mstatus[0m[90m | [0m[34mRunning task status[0m
+[35m[plenary.nvim] [0m[36m  status[0m[90m | [0m[34mRunning task status[0m
+[35m[project.nvim] [0m[36m  status[0m[90m | [0m[34mRunning task status[0m
+[35m[simple-zoom.nvim] [0m[36mstatus[0m[90m | [0m[34mRunning task status[0m
+[35m[telescope-fzf-native.nvim] [0m[36mstatus[0m[90m | [0m[34mRunning task status[0m
+[35m[telescope-ui-select.nvim] [0m[36mstatus[0m[90m | [0m[34mRunning task status[0m
+[35m[neogit] [0m[36m        status[0m[90m | [0m[34mFinished task status in 72ms[0m
+[35m[fidget.nvim] [0m[36m checkout[0m[90m | [0mHEAD is now at 6446302 chore(doc): auto-generate help docs
+[35m[gitsigns.nvim] [0m[36mcheckout[0m[90m | [0mHEAD is now at 5813e48 feat(cache): add support for fetching line ranges (#1414)
+[35m[lazydev.nvim] [0m[36mcheckout[0m[90m | [0mHEAD is now at 5231c62 fix(lsp): if the workspace root matches the client root, return client's non-normalized root instead. Closes #128
+[35m[blink.cmp] [0m[36m   checkout[0m[90m | [0mHEAD is now at b19413d chore: bump version to 1.8.0
+[35m[nvim-autopairs] [0m[36mcheckout[0m[90m | [0mHEAD is now at c2a0dd0 feat: add gitcommit ft to triple backtick rules (#530)
+[35m[mason-lspconfig.nvim] [0m[36mfetch[0m[90m | [0m[34mFinished task fetch in 793ms[0m
+[35m[mason.nvim] [0m[36m    status[0m[90m | [0m[34mFinished task status in 119ms[0m
+[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mremote: Enumerating objects: 11, done.        
+[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mremote: Counting objects:   9% (1/11)        [35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mremote: Counting objects:  18% (2/11)        [35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mremote: Counting objects:  27% (3/11)        [35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mremote: Counting objects:  36% (4/11)        [35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mremote: Counting objects:  45% (5/11)        [35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mremote: Counting objects:  54% (6/11)        [35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mremote: Counting objects:  63% (7/11)        [35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mremote: Counting objects:  72% (8/11)        [35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mremote: Counting objects:  81% (9/11)        [35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mremote: Counting objects:  90% (10/11)        [35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mremote: Counting objects: 100% (11/11)        [35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mremote: Counting objects: 100% (11/11), done.        
+[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mremote: Compressing objects:  20% (1/5)        [35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mremote: Compressing objects:  40% (2/5)        [35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mremote: Compressing objects:  60% (3/5)        [35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mremote: Compressing objects:  80% (4/5)        [35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mremote: Compressing objects: 100% (5/5)        [35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mremote: Compressing objects: 100% (5/5), done.        
+[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mremote: Total 7 (delta 4), reused 2 (delta 1), pack-reused 0 (from 0)        
+[35m[mason-lspconfig.nvim] [0m[36mstatus[0m[90m | [0m[34mRunning task status[0m
+[35m[mason.nvim] [0m[36m  checkout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[neogit] [0m[36m      checkout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[snacks.nvim] [0m[36m    fetch[0m[90m | [0m[34mFinished task fetch in 790ms[0m
+[35m[telescope.nvim] [0m[36m fetch[0m[90m | [0m[34mFinished task fetch in 789ms[0m
+[35m[todo-comments.nvim] [0m[36mfetch[0m[90m | [0m[34mFinished task fetch in 789ms[0m
+[35m[toggleterm.nvim] [0m[36mfetch[0m[90m | [0m[34mFinished task fetch in 789ms[0m
+[35m[venv-selector.nvim] [0m[36mfetch[0m[90m | [0m[34mFinished task fetch in 789ms[0m
+[35m[vim-tmux-navigator] [0m[36mfetch[0m[90m | [0m[34mFinished task fetch in 789ms[0m
+[35m[which-key.nvim] [0m[36m fetch[0m[90m | [0m[34mFinished task fetch in 788ms[0m
+[35m[fidget.nvim] [0m[36m checkout[0m[90m | [0m[34mFinished task checkout in 115ms[0m
+[35m[gitsigns.nvim] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 105ms[0m
+[35m[blink.cmp] [0m[36m   checkout[0m[90m | [0m[34mFinished task checkout in 139ms[0m
+[35m[lazydev.nvim] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 71ms[0m
+[35m[indent-blankline.nvim] [0m[36mstatus[0m[90m | [0m[34mFinished task status in 65ms[0m
+[35m[mini.pick] [0m[36m     status[0m[90m | [0m[34mFinished task status in 65ms[0m
+[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mReceiving objects:  14% (1/7)[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mReceiving objects:  28% (2/7)[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mReceiving objects:  42% (3/7)[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mReceiving objects:  57% (4/7)[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mReceiving objects:  71% (5/7)[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mReceiving objects:  85% (6/7)[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mReceiving objects: 100% (7/7)[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mReceiving objects: 100% (7/7), 2.24 KiB | 2.24 MiB/s, done.
+[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mResolving deltas:   0% (0/4)[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mResolving deltas:  25% (1/4)[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mResolving deltas:  50% (2/4)[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mResolving deltas:  75% (3/4)[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mResolving deltas: 100% (4/4)[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mResolving deltas: 100% (4/4), completed with 3 local objects.
+[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0mFrom https://github.com/stevearc/conform.nvim
+[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0m   5f5152f..5420c4b  master     -> origin/master
+[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0m + 603f70c...14379f5 release-please--branches--master -> origin/release-please--branches--master  (forced update)
+[35m[lazygit.nvim] [0m[36m   fetch[0m[90m | [0m[34mFinished task fetch in 809ms[0m
+[35m[lazy.nvim] [0m[36m     status[0m[90m | [0m[34mFinished task status in 80ms[0m
+[35m[neo-tree.nvim] [0m[36m status[0m[90m | [0m[34mFinished task status in 80ms[0m
+[35m[nui.nvim] [0m[36m      status[0m[90m | [0m[34mFinished task status in 80ms[0m
+[35m[nvim-autopairs] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 80ms[0m
+[35m[indent-blankline.nvim] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[indent-blankline.nvim] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 1ms[0m
+[35m[lazy.nvim] [0m[36m   checkout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[lazygit.nvim] [0m[36m  status[0m[90m | [0m[34mRunning task status[0m
+[35m[mini.pick] [0m[36m   checkout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[neo-tree.nvim] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[nui.nvim] [0m[36m    checkout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[nui.nvim] [0m[36m    checkout[0m[90m | [0m[34mFinished task checkout in 3ms[0m
+[35m[snacks.nvim] [0m[36m   status[0m[90m | [0m[34mRunning task status[0m
+[35m[telescope.nvim] [0m[36mstatus[0m[90m | [0m[34mRunning task status[0m
+[35m[todo-comments.nvim] [0m[36mstatus[0m[90m | [0m[34mRunning task status[0m
+[35m[toggleterm.nvim] [0m[36mstatus[0m[90m | [0m[34mRunning task status[0m
+[35m[venv-selector.nvim] [0m[36mstatus[0m[90m | [0m[34mRunning task status[0m
+[35m[vim-tmux-navigator] [0m[36mstatus[0m[90m | [0m[34mRunning task status[0m
+[35m[which-key.nvim] [0m[36mstatus[0m[90m | [0m[34mRunning task status[0m
+[35m[nvim-notify] [0m[36m   status[0m[90m | [0m[34mFinished task status in 83ms[0m
+[35m[mason.nvim] [0m[36m  checkout[0m[90m | [0mHEAD is now at 57e5a8a fix(installer): update cwd after uv_fs_rename() was successful (#2033)
+[35m[neogit] [0m[36m      checkout[0m[90m | [0mHEAD is now at d8bf9102 feat: Basic submodule support
+[35m[lazy.nvim] [0m[36m   checkout[0m[90m | [0mHEAD is now at 306a055 chore(build): auto-generate rockspec mappings
+[35m[mini.pick] [0m[36m   checkout[0m[90m | [0mHEAD is now at c488bba fix(pick): update `set_picker_opts` to rerun `match` only if necessary
+[35m[fzf-lua] [0m[36m       status[0m[90m | [0m[34mFinished task status in 133ms[0m
+[35m[nvim-web-devicons] [0m[36mstatus[0m[90m | [0m[34mFinished task status in 133ms[0m
+[35m[project.nvim] [0m[36m  status[0m[90m | [0m[34mFinished task status in 133ms[0m
+[35m[fzf-lua] [0m[36m     checkout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[nvim-notify] [0m[36m checkout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[nvim-notify] [0m[36m checkout[0m[90m | [0m[34mFinished task checkout in 7ms[0m
+[35m[nvim-web-devicons] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[project.nvim] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[project.nvim] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 8ms[0m
+[35m[conform.nvim] [0m[36m   fetch[0m[90m | [0m[34mFinished task fetch in 874ms[0m
+[35m[plenary.nvim] [0m[36m  status[0m[90m | [0m[34mFinished task status in 141ms[0m
+[35m[simple-zoom.nvim] [0m[36mstatus[0m[90m | [0m[34mFinished task status in 141ms[0m
+[35m[telescope-fzf-native.nvim] [0m[36mstatus[0m[90m | [0m[34mFinished task status in 141ms[0m
+[35m[telescope-ui-select.nvim] [0m[36mstatus[0m[90m | [0m[34mFinished task status in 141ms[0m
+[35m[mason-lspconfig.nvim] [0m[36mstatus[0m[90m | [0m[34mFinished task status in 78ms[0m
+[35m[mason.nvim] [0m[36m  checkout[0m[90m | [0m[34mFinished task checkout in 78ms[0m
+[35m[neogit] [0m[36m      checkout[0m[90m | [0m[34mFinished task checkout in 78ms[0m
+[35m[lazy.nvim] [0m[36m   checkout[0m[90m | [0m[34mFinished task checkout in 61ms[0m
+[35m[lazygit.nvim] [0m[36m  status[0m[90m | [0m[34mFinished task status in 62ms[0m
+[35m[catppuccin] [0m[36m     fetch[0m[90m | [0m[34mFinished task fetch in 880ms[0m
+[35m[mini.pick] [0m[36m   checkout[0m[90m | [0m[34mFinished task checkout in 67ms[0m
+[35m[catppuccin] [0m[36m    status[0m[90m | [0m[34mRunning task status[0m
+[35m[conform.nvim] [0m[36m  status[0m[90m | [0m[34mRunning task status[0m
+[35m[lazygit.nvim] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[mason-lspconfig.nvim] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[plenary.nvim] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[plenary.nvim] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 5ms[0m
+[35m[simple-zoom.nvim] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[simple-zoom.nvim] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 5ms[0m
+[35m[telescope-fzf-native.nvim] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[telescope-ui-select.nvim] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[telescope-ui-select.nvim] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 5ms[0m
+[35m[toggleterm.nvim] [0m[36mstatus[0m[90m | [0m[34mFinished task status in 83ms[0m
+[35m[nvim-web-devicons] [0m[36mcheckout[0m[90m | [0mHEAD is now at 6788013 feat: add .xslt icon (#616)
+[35m[toggleterm.nvim] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[nvim-lspconfig] [0m[36mstatus[0m[90m | [0m[34mFinished task status in 170ms[0m
+[35m[todo-comments.nvim] [0m[36mstatus[0m[90m | [0m[34mFinished task status in 90ms[0m
+[35m[vim-tmux-navigator] [0m[36mstatus[0m[90m | [0m[34mFinished task status in 90ms[0m
+[35m[mini.nvim] [0m[36m     status[0m[90m | [0m[34mFinished task status in 246ms[0m
+[35m[snacks.nvim] [0m[36m   status[0m[90m | [0m[34mFinished task status in 95ms[0m
+[35m[telescope.nvim] [0m[36mstatus[0m[90m | [0m[34mFinished task status in 95ms[0m
+[35m[venv-selector.nvim] [0m[36mstatus[0m[90m | [0m[34mFinished task status in 95ms[0m
+[35m[which-key.nvim] [0m[36mstatus[0m[90m | [0m[34mFinished task status in 95ms[0m
+[35m[mini.nvim] [0m[36m   checkout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[nvim-lspconfig] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[snacks.nvim] [0m[36m checkout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[telescope.nvim] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[todo-comments.nvim] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[venv-selector.nvim] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[venv-selector.nvim] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 1ms[0m
+[35m[vim-tmux-navigator] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[vim-tmux-navigator] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 2ms[0m
+[35m[which-key.nvim] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[fzf-lua] [0m[36m     checkout[0m[90m | [0mHEAD is now at 9d579fe fix: add missing undotree type
+[35m[neo-tree.nvim] [0m[36mcheckout[0m[90m | [0mHEAD is now at f3df514 fix(utils): handle libuv fail when getting username info (#1924)
+[35m[lazygit.nvim] [0m[36mcheckout[0m[90m | [0mHEAD is now at a04ad0d fix: avoids error when use q to close lazygit (#165)
+[35m[mason-lspconfig.nvim] [0m[36mcheckout[0m[90m | [0mHEAD is now at 8f1a3e6 chore: update generated code (#639)
+[35m[telescope-fzf-native.nvim] [0m[36mcheckout[0m[90m | [0mHEAD is now at 6fea601 docs(readme): cmake needs `--target install`
+[35m[nvim-web-devicons] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 59ms[0m
+[35m[fzf-lua] [0m[36m     checkout[0m[90m | [0m[34mFinished task checkout in 65ms[0m
+[35m[neo-tree.nvim] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 118ms[0m
+[35m[catppuccin] [0m[36m    status[0m[90m | [0m[34mFinished task status in 51ms[0m
+[35m[lazygit.nvim] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 51ms[0m
+[35m[mason-lspconfig.nvim] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 51ms[0m
+[35m[telescope-fzf-native.nvim] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 51ms[0m
+[35m[catppuccin] [0m[36m  checkout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[conform.nvim] [0m[36m  status[0m[90m | [0m[34mFinished task status in 52ms[0m
+[35m[conform.nvim] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[telescope.nvim] [0m[36mcheckout[0m[90m | [0mHEAD is now at e709d31 fix(pickers): remove broken highlight call for autocmds
+[35m[which-key.nvim] [0m[36mcheckout[0m[90m | [0mHEAD is now at 3aab214 chore(build): auto-generated vimdocs
+[35m[LuaSnip] [0m[36m        fetch[0m[90m | [0mFetching submodule deps/jsregexp
+[35m[todo-comments.nvim] [0m[36mcheckout[0m[90m | [0mHEAD is now at 31e3c38 chore(main): release 1.5.0 (#345)
+[35m[snacks.nvim] [0m[36m checkout[0m[90m | [0mHEAD is now at fe7cfe9 fix(picker.lsp): wait for pending requests. See #2527
+[35m[telescope.nvim] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 48ms[0m
+[35m[which-key.nvim] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 48ms[0m
+[35m[todo-comments.nvim] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 49ms[0m
+[35m[snacks.nvim] [0m[36m checkout[0m[90m | [0m[34mFinished task checkout in 54ms[0m
+[35m[catppuccin] [0m[36m  checkout[0m[90m | [0mHEAD is now at ce8d176 fix(trouble): link non-current trouble normal hl to trouble normal hl (#961)
+[35m[nvim-lspconfig] [0m[36mcheckout[0m[90m | [0mHEAD is now at d20d83b docs: update configs.md skip-checks: true
+[35m[catppuccin] [0m[36m  checkout[0m[90m | [0m[34mFinished task checkout in 38ms[0m
+[35m[mini.nvim] [0m[36m   checkout[0m[90m | [0mHEAD is now at 6170f60 fix(pick): update `set_picker_opts` to rerun `match` only if necessary
+[35m[nvim-lspconfig] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 68ms[0m
+[35m[toggleterm.nvim] [0m[36mcheckout[0m[90m | [0mHEAD is now at 50ea089 chore(main): release 2.13.1 (#625)
+[35m[mini.nvim] [0m[36m   checkout[0m[90m | [0m[34mFinished task checkout in 69ms[0m
+[35m[toggleterm.nvim] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 82ms[0m
+[35m[nvim-treesitter] [0m[36mstatus[0m[90m | [0m[34mFinished task status in 279ms[0m
+[35m[nvim-treesitter] [0m[36mcheckout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[nvim-treesitter] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 0ms[0m
+[35m[conform.nvim] [0m[36mcheckout[0m[90m | [0mPrevious HEAD position was 5f5152f fix: formatters defined with inherit=false (#835)
+[35m[conform.nvim] [0m[36mcheckout[0m[90m | [0mHEAD is now at 5420c4b fix: clean up nested temporary file directories (#804)
+[35m[conform.nvim] [0m[36mcheckout[0m[90m | [0m[34mFinished task checkout in 457ms[0m
+[35m[LuaSnip] [0m[36m        fetch[0m[90m | [0mFetching submodule deps/jsregexp005
+[35m[conform.nvim] [0m[36m    docs[0m[90m | [0m[34mRunning task docs[0m
+[35m[conform.nvim] [0m[36m    docs[0m[90m | [0m
+[35m[conform.nvim] [0m[36m    docs[0m[90m | [0m[34mFinished task docs in 6ms[0m
+[35m[LuaSnip] [0m[36m        fetch[0m[90m | [0mFetching submodule deps/jsregexp006
+[35m[LuaSnip] [0m[36m        fetch[0m[90m | [0mFrom https://github.com/kmarius/jsregexp
+[35m[LuaSnip] [0m[36m        fetch[0m[90m | [0m   c4e38df..7efbfb4  update-quickjs -> origin/update-quickjs
+[35m[LuaSnip] [0m[36m        fetch[0m[90m | [0m[34mFinished task fetch in 2386ms[0m
+[35m[LuaSnip] [0m[36m       status[0m[90m | [0m[34mRunning task status[0m
+[35m[LuaSnip] [0m[36m       status[0m[90m | [0m[34mFinished task status in 44ms[0m
+[35m[LuaSnip] [0m[36m     checkout[0m[90m | [0m[34mRunning task checkout[0m
+[35m[LuaSnip] [0m[36m     checkout[0m[90m | [0mHEAD is now at 5a1e392 Format with stylua
+[35m[LuaSnip] [0m[36m     checkout[0m[90m | [0m[34mFinished task checkout in 111ms[0m
+[35m[conform.nvim] [0m[36m     log[0m[90m | [0m[34mRunning task log[0m
+[35m[conform.nvim] [0m[36m     log[0m[90m | [0m5420c4b fix: clean up nested temporary file directories (#804) (74 minutes ago)[35m[conform.nvim] [0m[36m     log[0m[90m | [0m[34mFinished task log in 34ms[0m
