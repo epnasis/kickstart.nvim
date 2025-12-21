@@ -813,6 +813,7 @@ require('lazy').setup({
       -- setup must be called before loading the colorscheme
       require('catppuccin').setup {
         flavour = 'mocha', -- latte, frappe, macchiato, mocha
+        terminal_colors = true,
         no_italic = true,
         custom_highlights = function(colors)
           return {
@@ -980,6 +981,17 @@ require('lazy').setup({
     },
   },
 })
+
+-- Neovide setup
+if vim.g.neovide then
+  vim.o.guifont = 'PragmataPro Mono Liga:h15'
+  vim.keymap.set('n', '<D-s>', ':w<CR>') -- Save
+  vim.keymap.set('v', '<D-c>', '"+y') -- Copy
+  vim.keymap.set('n', '<D-v>', '"+P') -- Paste normal mode
+  vim.keymap.set('v', '<D-v>', '"+P') -- Paste visual mode
+  vim.keymap.set('c', '<D-v>', '<C-R>+') -- Paste command mode
+  vim.keymap.set('i', '<D-v>', '<C-R>+') -- Paste insert mode
+end
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
