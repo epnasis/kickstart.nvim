@@ -90,6 +90,30 @@ vim.o.confirm = true
 --  See `:help hlsearch`
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
+-- Smart Quit on 'H' if opened from Ranger
+vim.keymap.set('n', 'H', function()
+  -- Only trigger "Smart Quit" if opened from Ranger
+  if not vim.env.RANGER_LEVEL then
+    vim.cmd 'normal! H'
+    return
+  end
+
+  -- 1. Check if the buffer has unsaved changes
+  if vim.bo.modified then
+    vim.notify('Buffer has unsaved changes. Use :q! to force quit.', vim.log.levels.WARN)
+    return
+  end
+
+  -- 2. Check if there are other windows open (e.g., splits or help)
+  if #vim.api.nvim_tabpage_list_wins(0) > 1 then
+    vim.cmd 'normal! H' -- Execute standard 'H' (High)
+    return
+  end
+
+  -- 3. Safe to quit
+  vim.cmd 'quit'
+end, { desc = 'Close nvim if from Ranger, single window and unmodified, else H' })
+
 -- Diagnostic keymaps
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
 
