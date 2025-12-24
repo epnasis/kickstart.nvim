@@ -25,7 +25,10 @@ return {
         { section = "startup" },
       },
     },
-    explorer = { enabled = true },
+    explorer = {
+      enabled = true,
+      git_status = true, -- Enable git status integration
+    },
     indent = { enabled = true },
     input = { enabled = true },
     notifier = { enabled = true },
