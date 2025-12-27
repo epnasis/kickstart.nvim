@@ -27,6 +27,7 @@ return {
     },
     explorer = {
       enabled = true,
+      replace_netrw = true,
       git_status = true, -- Enable git status integration
     },
     indent = { enabled = true },
