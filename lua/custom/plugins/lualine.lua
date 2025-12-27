@@ -12,7 +12,7 @@ return {
         statusline = 1000,
         tabline = 1000,
         winbar = 1000,
-        events = { 'WinEnter', 'BufEnter', 'BufWritePost', 'SessionLoadPost', 'FileChangedShellPost', 'VimResized', 'Filetype', 'CursorMoved', 'CursorMovedI', 'ModeChanged', 'TermClose', 'FocusGained' },
+        events = { 'WinEnter', 'BufEnter', 'BufWritePost', 'SessionLoadPost', 'FileChangedShellPost', 'VimResized', 'Filetype', 'CursorMoved', 'CursorMovedI', 'ModeChanged', 'TermClose', 'FocusGained', 'RecordingEnter', 'RecordingLeave' },
       },
     },
     sections = {
@@ -24,6 +24,16 @@ return {
           symbols = { added = ' ', modified = ' ', removed = ' ' },
         },
         'diagnostics',
+        {
+          function()
+            local reg = vim.fn.reg_recording()
+            if reg == '' then
+              return ''
+            end
+            return 'Recording @' .. reg
+          end,
+          color = { fg = '#ff9e64' },
+        },
       },
       lualine_x = { 'encoding', 'fileformat', 'filetype' },
       lualine_y = { 'progress' },
