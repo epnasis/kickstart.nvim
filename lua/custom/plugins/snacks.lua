@@ -394,6 +394,43 @@ return {
       end,
       desc = 'Lazygit',
     },
+    -- Ranger
+    { '<leader>r', group = 'Ranger' },
+    {
+      '<leader>rr',
+      function()
+        local tmpfile = vim.fn.tempname()
+        -- Get current file's directory, or cwd if no file
+        local dir = vim.fn.expand '%:p:h'
+        if dir == '' or vim.fn.isdirectory(dir) == 0 then
+          dir = vim.uv.cwd()
+        end
+        -- Create autocmd to handle file selection when terminal closes
+        local group = vim.api.nvim_create_augroup('RangerChooser', { clear = true })
+        vim.api.nvim_create_autocmd('TermClose', {
+          group = group,
+          once = true,
+          callback = function()
+            vim.schedule(function()
+              if vim.fn.filereadable(tmpfile) == 1 then
+                local file = vim.fn.readfile(tmpfile)
+                if #file > 0 and vim.fn.filereadable(file[1]) == 1 then
+                  vim.cmd('edit ' .. vim.fn.fnameescape(file[1]))
+                end
+                vim.fn.delete(tmpfile)
+              end
+            end)
+          end,
+        })
+        -- l/Enter: write file path and exit on files, navigate on dirs
+        local select_cmd = "eval (open('" .. tmpfile .. "', 'w').write(fm.thisfile.path), fm.exit()) if fm.thisfile.is_file else fm.move(right=1)"
+        local cmd = 'ranger'
+          .. ' --cmd="map l ' .. select_cmd .. '"'
+          .. ' --cmd="map <CR> ' .. select_cmd .. '"'
+        Snacks.terminal(cmd, { cwd = dir })
+      end,
+      desc = 'Ranger',
+    },
     {
       '<leader>un',
       function()
