@@ -394,8 +394,7 @@ return {
       end,
       desc = 'Lazygit',
     },
-    -- Ranger
-    { '<leader>r', group = 'Ranger' },
+    -- Ranger (group defined in which-key spec)
     {
       '<leader>rr',
       function()

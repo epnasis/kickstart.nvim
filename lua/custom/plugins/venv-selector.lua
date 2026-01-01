@@ -1,6 +1,5 @@
 return {
   'linux-cultist/venv-selector.nvim',
-  branch = 'regexp', -- Use the new branch that doesn't depend on Telescope
   dependencies = {
     'neovim/nvim-lspconfig',
     'folke/snacks.nvim',
@@ -17,3 +16,4 @@ return {
     },
   },
 }
+
