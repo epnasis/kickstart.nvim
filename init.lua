@@ -575,6 +575,8 @@ require('lazy').setup({
         'shfmt', -- Shell formatter
         'taplo', -- TOML formatter
         'debugpy', -- Python debugger
+        'markdownlint', -- Markdown linter
+        'prettier', -- Markdown formatter
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
@@ -631,6 +633,7 @@ require('lazy').setup({
         rust = { 'rustfmt' },
         bash = { 'shfmt' },
         toml = { 'taplo' },
+        markdown = { 'prettier' },
         --
         -- You can use 'stop_after_first' to run the first available formatter from the list
         -- javascript = { "prettierd", "prettier", stop_after_first = true },

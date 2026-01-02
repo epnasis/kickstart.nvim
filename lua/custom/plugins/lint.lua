@@ -16,6 +16,17 @@ return {
       -- Rust uses clippy via rust-analyzer, no need for separate linter
     }
 
+    -- Custom configuration for markdownlint
+    local markdownlint = lint.linters.markdownlint
+    markdownlint.args = {
+      '--disable',
+      'MD013', -- Line length
+      'MD041', -- First line heading
+      'MD004', -- Unordered list style
+      'MD007', -- Unordered list indentation
+      '--',
+    }
+
     -- Create autocommand for linting
     local lint_augroup = vim.api.nvim_create_augroup('lint', { clear = true })
     vim.api.nvim_create_autocmd({ 'BufEnter', 'BufWritePost', 'InsertLeave' }, {
